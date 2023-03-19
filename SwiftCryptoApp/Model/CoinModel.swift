@@ -72,6 +72,8 @@ struct CoinModel: Identifiable, Codable {
     let priceChangePercentage24HInCurrency: Double?
     let currentHoldings: Double?
     
+    
+    // CodingKey -> /// A type that can be used as a key for encoding and decoding.
     enum CodingKeys: String, CodingKey {
         case id, symbol, name, image
         case currentPrice = "current_price"
