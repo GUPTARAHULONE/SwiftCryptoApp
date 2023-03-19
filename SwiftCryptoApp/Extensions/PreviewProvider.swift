@@ -24,6 +24,8 @@ class DeveloperPreview {
     // making private init , so that constructor cant be created from outside
     private init() {}
     
+    let homeVm = HomeViewModel()
+    
     let coin = CoinModel(
                id: "bitcoin",
                symbol: "btc",

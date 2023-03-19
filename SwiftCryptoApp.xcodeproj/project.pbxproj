@@ -19,6 +19,7 @@
 		BE8C488E29C735E2004DEA5B /* CoinRowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE8C488D29C735E2004DEA5B /* CoinRowView.swift */; };
 		BE8C489029C73610004DEA5B /* PreviewProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE8C488F29C73610004DEA5B /* PreviewProvider.swift */; };
 		BE8C489229C76F80004DEA5B /* Double.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE8C489129C76F80004DEA5B /* Double.swift */; };
+		BE8C489529C784A9004DEA5B /* HomeViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE8C489429C784A9004DEA5B /* HomeViewModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -35,6 +36,7 @@
 		BE8C488D29C735E2004DEA5B /* CoinRowView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoinRowView.swift; sourceTree = "<group>"; };
 		BE8C488F29C73610004DEA5B /* PreviewProvider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PreviewProvider.swift; sourceTree = "<group>"; };
 		BE8C489129C76F80004DEA5B /* Double.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Double.swift; sourceTree = "<group>"; };
+		BE8C489429C784A9004DEA5B /* HomeViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -108,6 +110,7 @@
 		BE74C79D29C630A60046B1EF /* Home */ = {
 			isa = PBXGroup;
 			children = (
+				BE8C489329C7846D004DEA5B /* ViewModel */,
 				BE74C79E29C630B80046B1EF /* Views */,
 			);
 			path = Home;
@@ -145,6 +148,14 @@
 				BE8C488B29C6DC6C004DEA5B /* CoinModel.swift */,
 			);
 			path = Model;
+			sourceTree = "<group>";
+		};
+		BE8C489329C7846D004DEA5B /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				BE8C489429C784A9004DEA5B /* HomeViewModel.swift */,
+			);
+			path = ViewModel;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -218,6 +229,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				BE8C488E29C735E2004DEA5B /* CoinRowView.swift in Sources */,
+				BE8C489529C784A9004DEA5B /* HomeViewModel.swift in Sources */,
 				BE74C78C29C616D30046B1EF /* ContentView.swift in Sources */,
 				BE74C7A029C630D70046B1EF /* HomeView.swift in Sources */,
 				BE74C78A29C616D30046B1EF /* SwiftCryptoAppApp.swift in Sources */,
