@@ -21,6 +21,7 @@
 		BE8C489229C76F80004DEA5B /* Double.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE8C489129C76F80004DEA5B /* Double.swift */; };
 		BE8C489529C784A9004DEA5B /* HomeViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE8C489429C784A9004DEA5B /* HomeViewModel.swift */; };
 		BECB542629C8A67900CE930A /* CoinDataService.swift in Sources */ = {isa = PBXBuildFile; fileRef = BECB542329C8A63600CE930A /* CoinDataService.swift */; };
+		BEE4F64C29CAEBB300EDAC4A /* NetworkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEE4F64B29CAEBB300EDAC4A /* NetworkManager.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -39,6 +40,7 @@
 		BE8C489129C76F80004DEA5B /* Double.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Double.swift; sourceTree = "<group>"; };
 		BE8C489429C784A9004DEA5B /* HomeViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewModel.swift; sourceTree = "<group>"; };
 		BECB542329C8A63600CE930A /* CoinDataService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoinDataService.swift; sourceTree = "<group>"; };
+		BEE4F64B29CAEBB300EDAC4A /* NetworkManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkManager.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -71,6 +73,7 @@
 		BE74C78829C616D30046B1EF /* SwiftCryptoApp */ = {
 			isa = PBXGroup;
 			children = (
+				BEE4F64A29CAEB9200EDAC4A /* Utilites */,
 				BECB542229C8A62000CE930A /* Services */,
 				BE74C79729C61A5C0046B1EF /* Extensions */,
 				BE8C488A29C6DC55004DEA5B /* Model */,
@@ -169,6 +172,14 @@
 			path = Services;
 			sourceTree = "<group>";
 		};
+		BEE4F64A29CAEB9200EDAC4A /* Utilites */ = {
+			isa = PBXGroup;
+			children = (
+				BEE4F64B29CAEBB300EDAC4A /* NetworkManager.swift */,
+			);
+			path = Utilites;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -242,6 +253,7 @@
 				BECB542629C8A67900CE930A /* CoinDataService.swift in Sources */,
 				BE8C488E29C735E2004DEA5B /* CoinRowView.swift in Sources */,
 				BE8C489529C784A9004DEA5B /* HomeViewModel.swift in Sources */,
+				BEE4F64C29CAEBB300EDAC4A /* NetworkManager.swift in Sources */,
 				BE74C78C29C616D30046B1EF /* ContentView.swift in Sources */,
 				BE74C7A029C630D70046B1EF /* HomeView.swift in Sources */,
 				BE74C78A29C616D30046B1EF /* SwiftCryptoAppApp.swift in Sources */,
