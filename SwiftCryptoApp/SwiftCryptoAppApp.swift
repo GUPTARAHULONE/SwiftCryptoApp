@@ -9,6 +9,8 @@ import SwiftUI
 
 @main
 struct SwiftCryptoAppApp: App {
+    
+    // stateObject is used for like environment objects, unlike state is used for local variables.
     @StateObject private var vm = HomeViewModel()
     
     var body: some Scene {
