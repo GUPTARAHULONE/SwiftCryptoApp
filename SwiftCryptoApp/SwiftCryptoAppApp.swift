@@ -13,6 +13,12 @@ struct SwiftCryptoAppApp: App {
     // stateObject is used for like environment objects, unlike state is used for local variables.
     @StateObject private var vm = HomeViewModel()
     
+    init() {
+        UINavigationBar.appearance().largeTitleTextAttributes = [.foregroundColor :UIColor(Color.theme.accent)]
+        UINavigationBar.appearance().titleTextAttributes = [.foregroundColor :UIColor(Color.theme.accent)]
+    }
+    
+    
     var body: some Scene {
         WindowGroup {
             NavigationView {
