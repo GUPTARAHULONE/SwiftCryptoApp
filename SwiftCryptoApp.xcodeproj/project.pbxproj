@@ -38,6 +38,7 @@
 		BEE4F65529CB44E200EDAC4A /* CoinImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEE4F65429CB44E200EDAC4A /* CoinImageView.swift */; };
 		BEE7D22C29D561630084C486 /* PortfolioContainer.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = BEE7D22A29D561630084C486 /* PortfolioContainer.xcdatamodeld */; };
 		BEE7D22E29D561F70084C486 /* PortfolioDataService.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEE7D22D29D561F70084C486 /* PortfolioDataService.swift */; };
+		BEE7D23029D5900C0084C486 /* HapticManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEE7D22F29D5900C0084C486 /* HapticManager.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -73,6 +74,7 @@
 		BEE4F65429CB44E200EDAC4A /* CoinImageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoinImageView.swift; sourceTree = "<group>"; };
 		BEE7D22B29D561630084C486 /* PortfolioContainer.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = PortfolioContainer.xcdatamodel; sourceTree = "<group>"; };
 		BEE7D22D29D561F70084C486 /* PortfolioDataService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PortfolioDataService.swift; sourceTree = "<group>"; };
+		BEE7D22F29D5900C0084C486 /* HapticManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HapticManager.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -221,6 +223,7 @@
 			isa = PBXGroup;
 			children = (
 				BEE4F64B29CAEBB300EDAC4A /* NetworkManager.swift */,
+				BEE7D22F29D5900C0084C486 /* HapticManager.swift */,
 				BE7B671029CCC8AB00D8F9C2 /* LocalFileManager.swift */,
 			);
 			path = Utilites;
@@ -322,6 +325,7 @@
 				BE1F0DB229D0291100757533 /* StatisticsView.swift in Sources */,
 				BE1F0DAE29CEC96F00757533 /* UiApplication.swift in Sources */,
 				BE1F0DBC29D0699300757533 /* XmarkView.swift in Sources */,
+				BEE7D23029D5900C0084C486 /* HapticManager.swift in Sources */,
 				BE74C7A429C633840046B1EF /* CircleButtonView.swift in Sources */,
 				BE1F0DAC29CEC4BF00757533 /* SearchBarView.swift in Sources */,
 				BE97AE8229D2050500A56435 /* CoinLogoView.swift in Sources */,
