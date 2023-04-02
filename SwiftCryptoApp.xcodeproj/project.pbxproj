@@ -43,6 +43,8 @@
 		BEE7D22E29D561F70084C486 /* PortfolioDataService.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEE7D22D29D561F70084C486 /* PortfolioDataService.swift */; };
 		BEE7D23029D5900C0084C486 /* HapticManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEE7D22F29D5900C0084C486 /* HapticManager.swift */; };
 		BEE7D23629D5D7330084C486 /* DetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEE7D23529D5D7330084C486 /* DetailView.swift */; };
+		BEFA521A29D9951700A58CDE /* ChartView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEFA521929D9951700A58CDE /* ChartView.swift */; };
+		BEFA521C29D9AE1300A58CDE /* Date.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEFA521B29D9AE1300A58CDE /* Date.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -83,6 +85,8 @@
 		BEE7D22D29D561F70084C486 /* PortfolioDataService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PortfolioDataService.swift; sourceTree = "<group>"; };
 		BEE7D22F29D5900C0084C486 /* HapticManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HapticManager.swift; sourceTree = "<group>"; };
 		BEE7D23529D5D7330084C486 /* DetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailView.swift; sourceTree = "<group>"; };
+		BEFA521929D9951700A58CDE /* ChartView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChartView.swift; sourceTree = "<group>"; };
+		BEFA521B29D9AE1300A58CDE /* Date.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Date.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -140,6 +144,7 @@
 			isa = PBXGroup;
 			children = (
 				BE74C79929C61ACA0046B1EF /* Color.swift */,
+				BEFA521B29D9AE1300A58CDE /* Date.swift */,
 				BE1F0DAD29CEC96F00757533 /* UiApplication.swift */,
 				BE8C488F29C73610004DEA5B /* PreviewProvider.swift */,
 				BE8C489129C76F80004DEA5B /* Double.swift */,
@@ -271,6 +276,7 @@
 			isa = PBXGroup;
 			children = (
 				BEE7D23529D5D7330084C486 /* DetailView.swift */,
+				BEFA521929D9951700A58CDE /* ChartView.swift */,
 			);
 			path = view;
 			sourceTree = "<group>";
@@ -348,9 +354,11 @@
 				BEE7D22C29D561630084C486 /* PortfolioContainer.xcdatamodeld in Sources */,
 				BE1F0DB029D0287400757533 /* StatisticModel.swift in Sources */,
 				BECB542629C8A67900CE930A /* CoinDataService.swift in Sources */,
+				BEFA521A29D9951700A58CDE /* ChartView.swift in Sources */,
 				BE8C488E29C735E2004DEA5B /* CoinRowView.swift in Sources */,
 				BE1F0DBA29D0670600757533 /*  PortfolioView.swift in Sources */,
 				BE49ADAA29D8964A00C96B57 /* CoinDetailService.swift in Sources */,
+				BEFA521C29D9AE1300A58CDE /* Date.swift in Sources */,
 				BE8C489529C784A9004DEA5B /* HomeViewModel.swift in Sources */,
 				BEE4F64C29CAEBB300EDAC4A /* NetworkManager.swift in Sources */,
 				BE7B671129CCC8AB00D8F9C2 /* LocalFileManager.swift in Sources */,
