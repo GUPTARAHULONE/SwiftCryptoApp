@@ -45,6 +45,7 @@
 		BEE7D23629D5D7330084C486 /* DetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEE7D23529D5D7330084C486 /* DetailView.swift */; };
 		BEFA521A29D9951700A58CDE /* ChartView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEFA521929D9951700A58CDE /* ChartView.swift */; };
 		BEFA521C29D9AE1300A58CDE /* Date.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEFA521B29D9AE1300A58CDE /* Date.swift */; };
+		BEFA521E29D9FD3500A58CDE /* String.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEFA521D29D9FD3500A58CDE /* String.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -87,6 +88,7 @@
 		BEE7D23529D5D7330084C486 /* DetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailView.swift; sourceTree = "<group>"; };
 		BEFA521929D9951700A58CDE /* ChartView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChartView.swift; sourceTree = "<group>"; };
 		BEFA521B29D9AE1300A58CDE /* Date.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Date.swift; sourceTree = "<group>"; };
+		BEFA521D29D9FD3500A58CDE /* String.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = String.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -144,6 +146,7 @@
 			isa = PBXGroup;
 			children = (
 				BE74C79929C61ACA0046B1EF /* Color.swift */,
+				BEFA521D29D9FD3500A58CDE /* String.swift */,
 				BEFA521B29D9AE1300A58CDE /* Date.swift */,
 				BE1F0DAD29CEC96F00757533 /* UiApplication.swift */,
 				BE8C488F29C73610004DEA5B /* PreviewProvider.swift */,
@@ -378,6 +381,7 @@
 				BE74C79A29C61ACA0046B1EF /* Color.swift in Sources */,
 				BE1F0DB429D02C3600757533 /* HomeStatsView.swift in Sources */,
 				BE1F0DB829D05DAD00757533 /* MarketDataService.swift in Sources */,
+				BEFA521E29D9FD3500A58CDE /* String.swift in Sources */,
 				BE74C7A629C639140046B1EF /* CircleButtonAnimationView.swift in Sources */,
 				BE8C489029C73610004DEA5B /* PreviewProvider.swift in Sources */,
 				BEE4F65329CB3D4800EDAC4A /* CoinImageViewModel.swift in Sources */,
