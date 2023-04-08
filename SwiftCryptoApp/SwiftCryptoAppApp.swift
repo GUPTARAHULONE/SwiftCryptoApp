@@ -12,6 +12,7 @@ struct SwiftCryptoAppApp: App {
     
     // stateObject is used for like environment objects, unlike state is used for local variables.
     @StateObject private var vm = HomeViewModel()
+    @State private var showLaunchView = true
     
     init() {
         UINavigationBar.appearance().largeTitleTextAttributes = [.foregroundColor :UIColor(Color.theme.accent)]
@@ -21,11 +22,23 @@ struct SwiftCryptoAppApp: App {
     
     var body: some Scene {
         WindowGroup {
-            NavigationView {
-                HomeView()
-                    .navigationBarHidden(true) 
+            
+            ZStack {
+                NavigationView {
+                    HomeView()
+                        .navigationBarHidden(true)
+                }
+                .environmentObject(vm)
+                
+                ZStack {
+                    if showLaunchView {
+                        LaunchView(showLaunchView: $showLaunchView)
+                            .transition(.move(edge: .leading))
+                    }
+                }
+                .zIndex(2.0)
             }
-            .environmentObject(vm)
+            
         }
     }
 }
