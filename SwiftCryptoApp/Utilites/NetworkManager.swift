@@ -26,7 +26,7 @@ class NetworkManager {
     static func download(url:URL) -> AnyPublisher<Data,Error>  {
         
         return URLSession.shared.dataTaskPublisher(for: url)
-            .subscribe(on: DispatchQueue.global(qos: .default))
+            .subscribe(on: DispatchQueue.global(qos: .default))  // this line not required, as dataTaskPublisher Already run on background thread
             .tryMap({
                 try handleURLResponse(output: $0, url: url)
             })
